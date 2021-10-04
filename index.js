@@ -11,7 +11,6 @@ const delay = ms => const promise = new Promise((resolve, reject) => {
    }, ms)
 }
    
-
  
  const logger = time => console.log(`Resolved after ${time}ms`);
  
